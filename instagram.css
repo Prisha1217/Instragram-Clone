@@ -1,0 +1,123 @@
+.nav{
+    width:990px;
+    padding:10px;
+    margin:25px auto;
+    display:flex;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    height:50px;
+    background-color: #fff;
+}
+
+.logo-img{
+    width:141px;
+    height:44px;
+}
+
+.btn{
+    border:1px solid lightgray;
+    border-radius: 14px;
+    color:white;
+    background-color: black;
+    padding:9px 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.main{
+    width:990px;
+    display:flex;
+    align-items: flex-start;
+    margin:14px auto;
+}
+
+.posts{
+    width: 60%;
+}
+
+.post{
+    border: 1px solid lightgray;
+    padding:10px;
+    border-radius: 14px;
+    margin-top:25px;
+    margin-bottom:25px;
+    margin-right: 30px;
+}
+
+.user-img{
+    width:50;
+    height:50px;
+    border-radius: 50%;
+}
+
+.flex{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.post-img{
+    width:100%;
+    border-radius: 14px;
+    margin-top:10px;
+}
+.sidebar{
+    padding:10px;
+    width:40%
+}
+
+.bar{
+    display:flex;
+    justify-content: space-between;
+    padding:5px;
+}
+
+.name{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3px;
+}
+
+.user-name{
+    color:gray;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.button{
+    display:flex;
+    gap:10px;
+}
+
+.icon{
+    height:46px;
+    width:141px;
+}
+
+.content{
+    margin:20px 0px;
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.profiles{
+    width:990px;
+    display:flex;
+    gap:5px;
+    margin:20px auto;
+    padding:10px;
+    cursor: pointer;
+    border:2px solid white;
+}
+
+.profile-img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.profile-img:hover{
+    transform: rotate(5deg);
+    border:2px solid pink;
+    scale:1.1;
+}
